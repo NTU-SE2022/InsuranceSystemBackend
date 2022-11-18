@@ -20,7 +20,7 @@ public class PolicyController {
 	private PolicyRepository policyRepository;
 
 	@GetMapping("/policies")
-	public Response getAllEmployees() {
+	public Response getAllpolicies() {
 		Response response = new Response();
 		Policy policy = new Policy();
 		policy.setPolicy(policyRepository.findAll());
