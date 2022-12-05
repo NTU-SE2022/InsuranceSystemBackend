@@ -22,7 +22,7 @@ public class PolicyController {
 	private PolicyRepository policyRepository;
 
 	@GetMapping("/policies")
-	public Response getAllpolicies() {
+	public Response getAllPolicies() {
 		Response response = new Response();
 		Policy policy = new Policy();
 		policy.setPolicy(policyRepository.findAll());
