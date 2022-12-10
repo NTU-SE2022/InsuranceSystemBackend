@@ -36,6 +36,11 @@ public class PolicyController {
 		}
 		return response;
 	}
+	@GetMapping(path = "/health")
+    	public @ResponseBody String greeting() 
+		{
+        		return "Hello, World";
+    	}
 
 	
 
