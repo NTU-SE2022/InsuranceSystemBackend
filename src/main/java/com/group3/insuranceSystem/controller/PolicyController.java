@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.ResponseBody;
 import com.group3.insuranceSystem.dao.PolicyAddress;
 import com.group3.insuranceSystem.dto.Policy;
 import com.group3.insuranceSystem.dto.Response;
