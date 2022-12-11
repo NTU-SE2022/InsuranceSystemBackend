@@ -17,7 +17,7 @@ import org.springframework.http.HttpStatus;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://insurance.host.chillmonkey.com.tw"})
 public class PolicyController {
 	@Autowired
 	private PolicyRepository policyRepository;
